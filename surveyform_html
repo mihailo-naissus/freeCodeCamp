@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Survey Form</title>
+<link rel='stylesheet' href='styles.css'>
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+
+<body>
+<h1 id='title'>freeCodeCamp Survey Form</h1>
+<p id='description'>Thank you for taking the time to help us improve the platform</p>
+<form id='survey-form'>
+
+<fieldset>
+<label id='name-label' for='name'>Name
+  <input id='name' type='text' required placeholder='Enter your name'>
+</label>
+</fieldset>
+
+
+
+
+
+
+<fieldset>
+<label id='email-label' for='email'>Email
+  <input id='email' type='email' required placeholder='Enter your email'>
+</label>
+</fieldset>
+
+
+
+
+
+<fieldset>
+<label id='number-label' for='number'>Age<span class='optional'> (optional)</span>
+  <input id='number' type='number' min='10' max='99' placeholder='Age'>
+</label>
+</fieldset>
+
+
+
+
+<fieldset>
+<label for='current-role'>Which option best describes your current role?
+<select id='current-role'>
+  <option value='' disabled selected>Select current role</option>
+  <option value='student'>Student</option>
+  <option value='fulTimeJob'>Full time job</option>
+  <option value='fullTimeLearner'>Full time learner</option>
+  <option value='preferNotToSay'>Prefer not to say</option>
+  <option value='other'>Other</option> 
+  </select>
+</label>
+</fieldset>
+
+
+
+
+
+<fieldset>
+<label id='recommendFriend'>Would you recommend freeCodeCamp to a friend?<br>
+
+<input type='radio' id='definitely' name='recommend' checked value='yes'>
+<label for='definitely' >Definitely</label><br>
+
+
+<input type='radio' id='maybe' name='recommend' value='maybe' >
+<label for='maybe' >Maybe</label><br>
+
+
+
+<input type='radio' id='notSure' name='recommend' value='no'>
+<label for='notSure'>Not sure</label><br>
+
+  </label>
+
+</fieldset>
+
+
+
+
+
+
+<fieldset>
+<label for='favoriteFeature'>What is your favorite feature of freeCodeCamp?
+
+
+<select id='dropdown'>
+  <option value='' disabled selected>Select an option</option>
+
+
+  <option value='challenges'>Challenges</option>
+  <option value='projects'>Projects</option>
+  <option value='community'>Community</option>
+  <option value='openSource'>Open Source</option>
+  </select>
+</label>
+</fieldset>
+
+
+ <fieldset>
+<label for='improve'>What would you like to see improved?<span class='optional'> (Check all that apply)</span><br>
+
+
+<input type='checkbox' id='frontEnd' value='1'>
+  <label for='frontEnd'>Front-end Projects</label><br>
+
+
+<input value='2' type='checkbox' id='backend'>
+  <label for='backend' >Back-end Projects</label><br>
+
+
+  
+<input value='21' type='checkbox' id='dataVisualisation'>
+  <label for='dataVisualisation' >Data Visualisation</label><br>
+
+
+  
+<input value='3' type='checkbox' id='challenges'>
+  <label for='challenges' >Challenges</label><br>
+
+
+  
+<input value='4' type='checkbox' id='openSourceCommunity'>
+  <label for='openSourceCommunity' >Open Source Comunity</label><br>
+
+
+  
+<input value='5' type='checkbox' id='gitterHelpRooms'>
+  <label for='gitterHelpRooms' >Gitter help rooms</label><br>
+
+
+  
+<input value='6' type='checkbox' id='videos'>
+  <label for='videos'>Videos</label><br>
+
+
+  
+<input value='7' type='checkbox' id='cityMeetups'>
+  <label for='cityMeetups' >City Meetups</label><br>
+
+
+  
+<input value='8' type='checkbox' id='wiki'>
+  <label for='wiki' >Wiki</label><br>
+
+
+  
+<input value='9' type='checkbox' id='forum' >
+  <label for='forum'>Forum</label><br>
+
+
+  
+<input value='10' type='checkbox' id='additionalCourses'>
+  <label for='additionalCourses' >Additional Courses</label><br>
+
+
+  </fieldset>
+
+
+
+<fieldset>
+<label for=comment> Any comments or suggestions?<br>
+  <textarea id='comment' rows='3' cols='30' placeholder='Enter your comment here...'></textarea>
+
+</fieldset>
+<fieldset>
+<button type='submit' id='submit'>Submit</button>
+</fieldset>
+
+  </form>
+
+
+</body>
+
+</html>
