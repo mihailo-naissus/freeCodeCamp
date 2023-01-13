@@ -18,10 +18,6 @@
 </fieldset>
 
 
-
-
-
-
 <fieldset>
 <label id='email-label' for='email'>Email
   <input id='email' type='email' required placeholder='Enter your email'>
@@ -29,16 +25,11 @@
 </fieldset>
 
 
-
-
-
 <fieldset>
 <label id='number-label' for='number'>Age<span class='optional'> (optional)</span>
   <input id='number' type='number' min='10' max='99' placeholder='Age'>
 </label>
 </fieldset>
-
-
 
 
 <fieldset>
@@ -55,20 +46,14 @@
 </fieldset>
 
 
-
-
-
 <fieldset>
 <label id='recommendFriend'>Would you recommend freeCodeCamp to a friend?<br>
 
 <input type='radio' id='definitely' name='recommend' checked value='yes'>
 <label for='definitely' >Definitely</label><br>
 
-
 <input type='radio' id='maybe' name='recommend' value='maybe' >
 <label for='maybe' >Maybe</label><br>
-
-
 
 <input type='radio' id='notSure' name='recommend' value='no'>
 <label for='notSure'>Not sure</label><br>
@@ -76,11 +61,6 @@
   </label>
 
 </fieldset>
-
-
-
-
-
 
 <fieldset>
 <label for='favoriteFeature'>What is your favorite feature of freeCodeCamp?
@@ -106,17 +86,15 @@
 <input type='checkbox' id='frontEnd' value='1'>
   <label for='frontEnd'>Front-end Projects</label><br>
 
-
 <input value='2' type='checkbox' id='backend'>
   <label for='backend' >Back-end Projects</label><br>
-
 
   
 <input value='21' type='checkbox' id='dataVisualisation'>
   <label for='dataVisualisation' >Data Visualisation</label><br>
 
 
-  
+ 
 <input value='3' type='checkbox' id='challenges'>
   <label for='challenges' >Challenges</label><br>
 
@@ -130,26 +108,21 @@
 <input value='5' type='checkbox' id='gitterHelpRooms'>
   <label for='gitterHelpRooms' >Gitter help rooms</label><br>
 
-
   
 <input value='6' type='checkbox' id='videos'>
   <label for='videos'>Videos</label><br>
-
 
   
 <input value='7' type='checkbox' id='cityMeetups'>
   <label for='cityMeetups' >City Meetups</label><br>
 
-
   
 <input value='8' type='checkbox' id='wiki'>
   <label for='wiki' >Wiki</label><br>
 
-
   
 <input value='9' type='checkbox' id='forum' >
   <label for='forum'>Forum</label><br>
-
 
   
 <input value='10' type='checkbox' id='additionalCourses'>
