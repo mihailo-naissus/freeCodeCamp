@@ -22,8 +22,6 @@ padding: 1em;
 padding-bottom: 2.5em;
 font-size: 0.9em;
 line-height: 1.5;
-
-
 }
 
 fieldset{
@@ -33,16 +31,18 @@ fieldset{
 .optional{
 
   font-size: 0.7em;
-
 }
 
 h1{
+    
   text-align: center;
   margin-bottom: 0;
   font-size: 1.5em;
   font-weight: 400;
   color: #ececec;
 }
+
+
 #description{
   text-align: center;
   margin-top: 0.3em;
@@ -65,7 +65,6 @@ select{
   color: gray;
 }
 
-
 #comment{
 
   width: 100%;
@@ -78,6 +77,7 @@ select{
 }
 
 #submit{
+    
   background-color: #37af65;
   display: block;
   width: 100%;
