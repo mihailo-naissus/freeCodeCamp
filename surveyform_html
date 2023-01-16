@@ -7,6 +7,8 @@
 </head>
 
 <body>
+
+
 <h1 id='title'>freeCodeCamp Survey Form</h1>
 <p id='description'>Thank you for taking the time to help us improve the platform</p>
 <form id='survey-form'>
@@ -17,20 +19,17 @@
 </label>
 </fieldset>
 
-
 <fieldset>
 <label id='email-label' for='email'>Email
   <input id='email' type='email' required placeholder='Enter your email'>
 </label>
 </fieldset>
 
-
 <fieldset>
 <label id='number-label' for='number'>Age<span class='optional'> (optional)</span>
   <input id='number' type='number' min='10' max='99' placeholder='Age'>
 </label>
 </fieldset>
-
 
 <fieldset>
 <label for='current-role'>Which option best describes your current role?
@@ -44,7 +43,6 @@
   </select>
 </label>
 </fieldset>
-
 
 <fieldset>
 <label id='recommendFriend'>Would you recommend freeCodeCamp to a friend?<br>
